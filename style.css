@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+}
+#body-header{
+    background-image: url(image/macbook_mouse.jpg);
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    /* text-align: center; */
+
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.nav-menu li a{
+    transition: color 0.5s, border-bottom 4s;
+    
+}
+.nav-menu li a:hover{
+    color: lightgray;
+    border-bottom: 1px solid white;
+    
+}
+.text-center{
+    text-align: center;
+}
+
+
+/* name and social container */
+#name-social-container{
+    margin-top: 20vh;
+}
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a img{
+    color: red;
+    padding: 10px;
+    height:1rem;
+    width: 1rem;
+    border-radius: 40%;
+}
+.social-icons li a img:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.4);
+}
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#my-image{
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+
