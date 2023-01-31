@@ -159,7 +159,10 @@ section:nth-child(2n+1){
     margin-left: 10px;
     vertical-align: middle;
 }
-
+#skills{
+    width: 100%;
+    height: 100%;
+}
 
 /* comman margin classes */
 .mb75px{
