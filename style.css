@@ -438,17 +438,35 @@ button:focus {
     height: 75%;
     color: #433E3F;
 }
+@media screen and (max-width:600px) {
+    #timeline-divider {
+        left: 5%;
+    }
+    .timeline-box {
+        left: 12% !important;
+        width: 80%;
+    }
 
-#timeline-divider .timeline-traveller {
-    position: sticky;
-    top: 25%;
-    z-index: 2;
+    /* .timeline-box:nth-child(2n) {
+        left: 12%;
+    } */
+
+
+    .timeline-box::after {
+        left: -11% !important;
+    }
+    html{
+        font-size: 15px;
+    }
+
+
+    /* .timeline-box:nth-child(2n+1)::after {
+        left: -11%;
+    }
+    
+    .timeline-box:nth-child(2n)::after {
+        left: -11%;
+    } */
 }
 
-#timeline-divider i {
-    transform: rotate(90deg);
-  	margin-top: -35px;
-    display: block;
-    color: #2857a4;
-}
 
