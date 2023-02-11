@@ -468,5 +468,16 @@ button:focus {
         left: -11%;
     } */
 }
+#timeline-divider .timeline-traveller {
+    position: sticky;
+    top: 25%;
+    z-index: 2;
+}
 
+#timeline-divider i {
+    transform: rotate(90deg);
+  	margin-top: -35px;
+    display: block;
+    color: #2857a4;
+}
 
